@@ -2,7 +2,7 @@
 
 A full-stack payment integration support dashboard built for merchant success and integration support engineers in fintech.
 
-![Dashboard Preview](docs/dashboard.png)
+![Dashboard Preview](https://raw.githubusercontent.com/maniakhilesh/payment-support-dashboard/main/docs/dashboard.png)
 
 ## 🎯 What This Project Does
 
