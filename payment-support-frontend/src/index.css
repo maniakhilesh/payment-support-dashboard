@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&family=Syne:wght@500;600;700;800&display=swap');
+
+:root {
+  --bg-primary: #0A0F1E;
+  --bg-secondary: #0D1530;
+  --bg-card: rgba(255, 255, 255, 0.04);
+  --border: rgba(0, 212, 255, 0.15);
+  --accent-blue: #00D4FF;
+  --accent-green: #00FF88;
+  --accent-red: #FF4757;
+  --accent-amber: #FFB300;
+  --text-primary: #E8EDF5;
+  --text-secondary: #7B8FAB;
+  --font-display: 'Syne', sans-serif;
+  --font-mono: 'Space Mono', monospace;
+  --font-body: 'Inter', sans-serif;
+  --glow-blue: 0 0 20px rgba(0, 212, 255, 0.3);
+  --glow-green: 0 0 20px rgba(0, 255, 136, 0.3);
+  --glow-red: 0 0 20px rgba(255, 71, 87, 0.3);
+  --radius: 12px;
+  --transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+
+  color: var(--text-primary);
+  background: var(--bg-primary);
+  font-family: var(--font-body);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-height: 100%;
+  background: var(--bg-primary);
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: var(--bg-primary);
+  background-image: radial-gradient(circle, rgba(0, 212, 255, 0.08) 1px, transparent 1px);
+  background-size: 32px 32px;
+  color: var(--text-primary);
+  font-family: var(--font-body);
+}
+
+body::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #08101d;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: rgba(0, 212, 255, 0.42);
+  border-radius: 999px;
+  border: 2px solid #08101d;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 212, 255, 0.64);
+}
+
+* {
+  scrollbar-color: rgba(0, 212, 255, 0.42) #08101d;
+  scrollbar-width: thin;
+}
+
+::selection {
+  background: rgba(0, 212, 255, 0.28);
+  color: var(--text-primary);
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  color: inherit;
+}
+
+#root {
+  min-height: 100vh;
+}
